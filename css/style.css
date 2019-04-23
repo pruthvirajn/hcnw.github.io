@@ -1274,3 +1274,60 @@ body.mobile-nav-active #mobile-nav-toggle {
      -moz-box-shadow: 0 10px 6px -6px #777;
           box-shadow: 0 10px 6px -6px #777;
 }
+
+.searchbar{
+  margin-right: 30px;
+  height: 40px;
+  background-color: rgb(255, 255, 255, 0.2);
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 30px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color:white;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+  color: #fff;
+}
+
+.search_icon{
+  height: 30px;
+  width: 30px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+  color:white;
+}
+
+.donate-btn{
+  top: 50px;
+}
+
+.donate{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.m-btns{
+  list-style: none;
+  float: left;
+}
